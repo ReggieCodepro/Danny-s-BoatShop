@@ -1,0 +1,99 @@
+* { box-sizing: border-box; }
+
+body { background-color: #003e64; 
+		color: #493038;
+		font-family: Verdana, Arial, sans-serif; }
+ 
+header { background-color: #88c4ec; 
+		 background-image: url(boat-shed-repair-workshop-clipart-vector_csp56559050.jpg);
+		 background-position: right;
+		 background-repeat: no-repeat;
+		  }
+		 
+h1 {padding-top: 50px;
+	padding-left: 2em; }
+	
+	
+ nav {  float: left;
+		width: 160px;
+		font-weight: bold;
+		padding: 1em; }
+		
+nav a { text-decoration: none;
+		font-weight: bold;
+		padding: 1em;
+	    display: block;
+		text-align: center;
+		border: 5px outset #afb9c0;
+		margin-bottom: .5em; }
+		
+nav a:link { color: #0079c6;}
+nav a:visited { color: #008cde;}
+nav a:hover { color: #A26100;
+			  border: 3px inset #333333; }
+
+nav ul { list-style-type: none; margin: 0; padding: 0; }			  
+
+.studio {font-style: italic; }
+
+main { margin-left: 170px;
+       padding-top: 1em;
+	   padding-right: 2em;
+	   display: block; }
+	   
+.floatleft { float: left;
+			 margin-right: 4em; } 
+
+footer { font-size: .60em;
+		 background-color: #88c4ec;
+		 font-style: italic;
+		 text-align: center;
+		 padding: 1em; }
+		
+.clear { clear: both;}
+
+#wrapper { background-color: #F5F5F5;
+		margin-left: auto;
+		  margin-right: auto;
+		  width: 80%;
+		  min-width: 1200px;
+		  max-width: 1480px; }
+		  
+table	{ margin-left: auto;
+		  margin-right: auto;	 
+		  margin-bottom: 1em; 
+		  width: 60%;
+		  border: 1px solid #3F2860;
+		  border-collapse: collapse;
+		 }
+
+td, th	{ border: 1px solid #3F2860;
+		  padding: 5px; }
+
+tr:nth-of-type(even) {background-color: #9BC1C2;}
+ 
+caption { margin: 1em;
+		  font-weight: bold;
+		  font-size: 120%;}	  
+		  
+header, nav, main, footer { display: block; }
+
+label { float: left;
+		text-align: right;
+        font-weight: bold;
+		width: 10em;
+		padding-right: 1em;
+		display: block;}
+		
+input, textarea { margin-bottom: 2em;
+				 display: block;}
+#mySubmit { margin-left: 15em;}
+
+form {padding: 3em;}
+
+Audio { display: block;
+		margin: 1em;}
+
+	
+
+       
